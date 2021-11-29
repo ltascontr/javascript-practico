@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="descuentos_cupon.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="menu">
+        <img src="assets/logo_platzi.png" alt="">
+        <nav class="options">
+            <ul>
+                <li>Inicio</li>
+                <li>Taller 1</li>
+                <li>Taller 2</li>
+                <li>Taller 3</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <h1>Calcula el precio aplicando un descuento</h1>
+
+        <div class="container">
+            <div class="card">
+                <h2>Calcula el precio</h2>
+
+                <form action="" class="form-card">
+                    <label for="price">Ingresa el valor de tu producto</label>
+                    <input id="price" type="number">
+
+                    <label for="coupon">Ingresa su cupon</label>
+                    <input id="coupon" type="text">
+
+                    <button type="button" onclick="priceDiscount()">Precio final</button>
+
+                    <p id="valueFinal"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contain-footer">
+        <ul>
+            <li>Contacto</li>
+            <li>Terminos y Condiciones</li>
+            <li>Privacidad</li>
+        </ul>
+    </footer>
+
+    <script src="descuentos_cupon.js"></script>
+</body>
+
+</html>

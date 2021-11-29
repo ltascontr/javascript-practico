@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img{
+    width: 100px;
+}
+
+.menu .options ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    font-weight: 500;
+    color: #98CA3F;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main h1{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    font-size: 26px;
+}
+
+.main .container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .container .card{
+    width: 30%;
+    background-color: #98CA3F;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20px;
+    border-radius: 10px;
+}
+
+.main .container .card h2{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.main .container .card .form-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main .container .card .form-card label{
+    font-size: 18px;
+}
+
+.main .container .card .form-card input{
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #fff;
+    height: 25px;
+}
+
+.main .container .card .form-card button{
+    font-size: 18px;
+    height: 25px;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 1px transparent;
+    background: #f3f3f3;
+    margin-top: 20px;
+}
+
+.main .container .card .form-card p{
+    font-size: 18px;
+    margin: 20px 0px;
+    color: #008080;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.contain-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #98CA3F;
+}
+
+.contain-footer ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 500;
+    color: #000;
+}
